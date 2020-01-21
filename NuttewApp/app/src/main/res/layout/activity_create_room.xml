@@ -109,9 +109,10 @@
             android:background="@drawable/create_button"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="25dp"
+            android:paddingLeft="150dp"
+            android:layout_gravity="center"
             android:textColor="@color/whiteCearteRoom"
-            android:text="@string/other_room"
+            android:text="Create"
             />
     </LinearLayout>
     <androidx.appcompat.widget.Toolbar
