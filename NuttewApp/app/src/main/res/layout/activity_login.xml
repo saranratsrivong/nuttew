@@ -1,9 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFD3AA "
     tools:context=".loginActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/loginText"
+        style="@style/TextLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/text_login"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            style="@style/TextEditUsername"
+            android:id="@+id/usernameEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+
+            android:hint="@string/edit_username"
+            android:layout_margin="15dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            style="@style/TextEditPassword"
+            android:id="@+id/passwordEditText"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+
+            android:hint="@string/edit_password"
+            android:layout_margin="15dp"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="@style/ButtonLoginStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/button_login">
+        </Button>
+
+        <Button
+            style="@style/ButtonRegister"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/button_register">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Login with">
+
+        </TextView>
+
+        <ImageButton
+            android:layout_gravity="center"
+            android:background="@drawable/gmail_bg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
