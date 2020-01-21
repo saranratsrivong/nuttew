@@ -1,9 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:weightSum="9"
     tools:context=".chatActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolBar"
+        android:layout_width="match_parent"
+        app:title=" "
+        android:background="@color/colorPrimary"
+        android:layout_height="?android:attr/actionBarSize" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbar_char"
+                android:textColor="@color/colorToolBar"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_chat_title" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/colorToolBar"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_noti" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        >
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_margin="10dp"
+                android:background="@mipmap/ic_profile_chat">
+            </ImageView>
+            <SearchView
+                android:layout_gravity="center"
+                android:id="@+id/simpleSearchView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:iconifiedByDefault="false"
+                android:queryHint="Search here">
+            </SearchView>
+        </GridLayout>
+
+        <ListView
+            android:id="@+id/chatListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/dividerChat"
+            android:dividerHeight="0.5dp"
+            android:listSelector="@color/listSelectorChat"
+            >
+
+
+        </ListView>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/toolBarBottom"
+        >
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

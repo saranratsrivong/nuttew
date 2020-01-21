@@ -1,9 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".createRoomActivity">
+    android:orientation="vertical"
+    tools:context=".createRoomActivity"
+    android:weightSum="9">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/myToolBar"
+        android:layout_width="match_parent"
+        app:title=" "
+        android:background="@color/colorPrimary"
+        android:layout_height="?android:attr/actionBarSize"
+        tools:targetApi="honeycomb">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toolbar_char"
+                android:textColor="@color/colorToolBar"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:id="@+id/toolbar_chat_title" />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/colorToolBar"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_back" />
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/colorToolBar"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_noti" />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background_creatroom">
+        <EditText
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_createroom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/name_createroom"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_createroom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/date_createroom"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_createroom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/time_createroom"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_createroom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/place_createroom"/>
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/circle_createroom"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/other_room"
+                />
+        <EditText
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/create_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/whiteCearteRoom"
+            android:text="@string/other_room"
+            />
+    </LinearLayout>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/toolBarBottom"
+        tools:targetApi="honeycomb">
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+            <ImageView
+                android:layout_weight="1"
+                android:background="@mipmap/ic_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+            </ImageView>
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+</LinearLayout>

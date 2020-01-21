@@ -13,5 +13,12 @@
     <string name="edit_sign_up_confirm_password">Example1234</string>
     <string name="button_signup">Sign Up</string>
     <string name="text_confirm_password">confirm password</string>
+    <string name="toolbar_char">CHAT</string>
+    <string name="name_createroom">Name room</string>
+    <string name="date_createroom">Date</string>
+    <string name="time_createroom">Time</string>
+    <string name="place_createroom">Place</string>
+    <string name="other_room">Other</string>
+
 
 </resources>
