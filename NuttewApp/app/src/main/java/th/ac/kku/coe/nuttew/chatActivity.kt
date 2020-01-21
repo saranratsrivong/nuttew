@@ -8,5 +8,8 @@ class chatActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat)
+
+        val toolBar = findViewById<androidx.appcompat.widget.Toolbar>(R.id.myToolBar).apply{}
+        setSupportActionBar(toolBar)
     }
 }
