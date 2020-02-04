@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nuttew</string>
+    <string name="button_login">เข้าสู่ระบบ</string>
+    <string name="button_register">สมัคร</string>
+    <string name="button_signup">สมัคร</string>
+    <string name="date_createroom">วันที่</string>
+    <string name="edit_password">รหัส</string>
+    <string name="edit_sign_up_confirm_password">ตัวอย่าง1234</string>
+    <string name="edit_sign_up_email">ตัวอย่าง@kkumail.com</string>
+    <string name="edit_sign_up_password">ตัวอย่าง1234</string>
+    <string name="edit_sign_up_username">ตัวอย่าง</string>
+    <string name="edit_username">ชื่อผู้ใช้</string>
+    <string name="name_createroom">ชื่อห้อง</string>
+    <string name="other_room">อื่น ๆ</string>
+    <string name="place_createroom">สถานที่</string>
+    <string name="text_confirm_password">ยืนยันรหัส</string>
+    <string name="text_email">อีเมล์</string>
+    <string name="text_home">หน้าหลัก</string>
+    <string name="text_login">เข้าสู่ระบบ</string>
+    <string name="text_sign_up">สมัคร</string>
+    <string name="time_createroom">เวลา</string>
+    <string name="toolbar_char">ห้องแชท</string>
+</resources>
