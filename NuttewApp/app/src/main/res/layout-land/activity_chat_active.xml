@@ -159,9 +159,14 @@
         tools:targetApi="honeycomb"
         app:layout_constraintBottom_toBottomOf="parent">
         <LinearLayout
-            android:weightSum="4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:weightSum="16">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6" />
             <ImageView
                 android:layout_weight="1"
                 android:background="@mipmap/ic_home"

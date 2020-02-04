@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".createRoomActivity"
-    android:weightSum="9">
+    tools:context=".createRoomActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/myToolBar"
@@ -14,7 +13,9 @@
         app:title=" "
         android:background="@color/colorPrimary"
         android:layout_height="?android:attr/actionBarSize"
-        tools:targetApi="honeycomb">
+        tools:targetApi="honeycomb"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -45,81 +46,90 @@
         </RelativeLayout>
 
     </androidx.appcompat.widget.Toolbar>
+
     <LinearLayout
-        android:layout_weight="9"
+        android:id="@+id/fill_createroom"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@drawable/background_creatroom"
         android:orientation="vertical"
-        android:background="@drawable/background_creatroom">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myToolBar">
+
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:paddingLeft="25dp"
+            android:text="@string/name_createroom"
+            android:textColor="@color/whiteCearteRoom" />
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="25dp"
-            android:textColor="@color/whiteCearteRoom"
-            android:text="@string/name_createroom"/>
-        <EditText
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:paddingLeft="25dp"
+            android:text="@string/date_createroom"
+            android:textColor="@color/whiteCearteRoom" />
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="25dp"
-            android:textColor="@color/whiteCearteRoom"
-            android:text="@string/date_createroom"/>
-        <EditText
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:paddingLeft="25dp"
+            android:text="@string/time_createroom"
+            android:textColor="@color/whiteCearteRoom" />
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="25dp"
-            android:textColor="@color/whiteCearteRoom"
-            android:text="@string/time_createroom"/>
-        <EditText
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
             android:paddingLeft="25dp"
-            android:textColor="@color/whiteCearteRoom"
-            android:text="@string/place_createroom"/>
+            android:text="@string/place_createroom"
+            android:textColor="@color/whiteCearteRoom" />
+
         <EditText
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/circle_createroom"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:paddingLeft="25dp"
-            android:textColor="@color/whiteCearteRoom"
-            android:text="@string/other_room"
-                />
-        <EditText
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
-            android:background="@drawable/create_button"
+            android:background="@drawable/circle_createroom"
+            android:paddingLeft="25dp"
+            android:text="@string/other_room"
+            android:textColor="@color/whiteCearteRoom" />
+
+        <EditText
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:paddingLeft="150dp"
             android:layout_gravity="center"
-            android:textColor="@color/whiteCearteRoom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/create_button"
+            android:paddingLeft="150dp"
             android:text="Create"
-            />
+            android:textColor="@color/whiteCearteRoom" />
     </LinearLayout>
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/toolBarBottom"
-        tools:targetApi="honeycomb">
+        tools:targetApi="honeycomb"
+        app:layout_constraintBottom_toBottomOf="parent">
         <LinearLayout
             android:weightSum="4"
             android:layout_width="wrap_content"
@@ -164,4 +174,4 @@
 
 
     </androidx.appcompat.widget.Toolbar>
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

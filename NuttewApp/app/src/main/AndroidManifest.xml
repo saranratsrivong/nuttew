@@ -11,13 +11,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".editProfileActivity"></activity>
         <activity android:name=".registerActivity" >
+
+        </activity>
+        <activity android:name=".profileActivity" />
+        <activity android:name=".createRoomActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".profileActivity" />
-        <activity android:name=".createRoomActivity" >
         </activity>
         <activity android:name=".settingActivity" />
         <activity android:name=".searchFriendActivity" />
@@ -27,7 +28,9 @@
         <activity android:name=".loginActivity" />
     
 
-        <activity android:name=".chatActiveActivity" />
+        <activity android:name=".chatActiveActivity" >
+
+        </activity>
         <activity android:name=".chatActivity" >
 
         </activity>
