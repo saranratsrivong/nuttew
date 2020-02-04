@@ -16,8 +16,6 @@
         <activity android:name=".profileActivity" />
         <activity android:name=".createRoomActivity" />
 
-
-
         <activity android:name=".settingActivity" />
         <activity android:name=".searchFriendActivity" />
         <activity android:name=".requestFriendActivity" />
@@ -28,9 +26,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".loginActivity" />
-    
+
 
         <activity android:name=".chatActiveActivity" />
 

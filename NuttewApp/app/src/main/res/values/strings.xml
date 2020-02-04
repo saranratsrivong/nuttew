@@ -21,6 +21,12 @@
     <string name="place_createroom">Place</string>
     <string name="other_room">Other</string>
     <string name="page_login">Login</string>
+    <string name="text_topic">Header</string>
+    <string name="text_by">by</string>
+    <string name="text_subject">subject</string>
+    <string name="text_date">date</string>
+    <string name="text_time">time</string>
+    <string name="text_place">place</string>
 
 
 </resources>

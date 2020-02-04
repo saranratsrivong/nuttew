@@ -22,4 +22,10 @@
     <string name="time_createroom">เวลา</string>
     <string name="toolbar_char">ห้องแชท</string>
     <string name="page_login">เข้าสู่ระบบ</string>
+    <string name="text_topic">หัวข้อ</string>
+    <string name="text_by">โดย</string>
+    <string name="text_subject">วิชา</string>
+    <string name="text_date">วันที่</string>
+    <string name="text_time">เวลา</string>
+    <string name="text_place">สถานที่</string>
 </resources>
