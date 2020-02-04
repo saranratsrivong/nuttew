@@ -17,53 +17,52 @@
         android:layout_width="89dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="276dp"
         android:text="@string/text_login"
         app:layout_constraintBottom_toTopOf="@+id/usernameEditText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/usernameEditText"
         style="@style/TextEditUsername"
-        android:layout_width="200dp"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
 
 
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="16dp"
         android:hint="@string/edit_username"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/passwordEditText"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875" />
+        app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/passwordEditText"
-        style="@style/TextEditPassword"
-        android:layout_width="200dp"
+    <Button
+        android:id="@+id/button"
+        style="@style/ButtonLoginStyle"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
-
-
-        android:layout_marginBottom="40dp"
-        android:hint="@string/edit_password"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        android:layout_marginBottom="148dp"
+        android:text="@string/button_login"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"></Button>
 
     <Button
         android:id="@+id/button2"
         style="@style/ButtonRegister"
-        android:layout_width="150dp"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:text="@string/button_register"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -72,47 +71,48 @@
 
     </Button>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="100dp"
+    <EditText
+        android:id="@+id/passwordEditText"
+        style="@style/TextEditPassword"
+        android:layout_width="500dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:text="Login with"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.0">
 
-    </TextView>
+
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="26dp"
+        android:hint="@string/edit_password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText" />
 
     <ImageButton
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="120dp"
+        android:layout_marginEnd="284dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/gmail_bg"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintEnd_toEndOf="parent">
 
     </ImageButton>
 
-    <Button
-        android:id="@+id/button"
-        style="@style/ButtonLoginStyle"
-        android:layout_width="150dp"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="319dp"
-        android:text="@string/button_login"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"></Button>
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Login with"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

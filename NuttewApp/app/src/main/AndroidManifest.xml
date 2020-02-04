@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".profileActivity" />
         <activity android:name=".createRoomActivity" />
         <activity android:name=".settingActivity" />
@@ -23,19 +24,17 @@
         <activity android:name=".requestFriendActivity" />
         <activity android:name=".roomActivity" />
         <activity android:name=".homeActivity" />
+
         <activity android:name=".loginActivity" />
 
         <activity android:name=".chatActiveActivity" />
-        <activity android:name=".chatActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".chatActivity" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".MainActivity">
 
         </activity>
+
+
     </application>
 
 </manifest>

@@ -20,6 +20,7 @@
     <string name="time_createroom">Time</string>
     <string name="place_createroom">Place</string>
     <string name="other_room">Other</string>
+    <string name="page_login">Login</string>
 
 
 </resources>
