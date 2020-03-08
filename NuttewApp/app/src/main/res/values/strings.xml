@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Nuttew</string>
     <string name="text_home">HOME</string>
     <string name="text_login">Login</string>
     <string name="edit_username">username</string>
@@ -24,7 +23,6 @@
     <string name="text_topic">Header</string>
     <string name="text_by">by</string>
     <string name="text_subject">subject</string>
-    <string name="text_date">date</string>
     <string name="text_time">time</string>
     <string name="text_place">place</string>
     <string name="add_friend">ADD FRIEND</string>
@@ -56,7 +54,6 @@
     <string name="what_wrong">What went wrong?</string>
     <string name="take_screenshot">Take a screenshot</string>
     <string name="select_image_gallery">Select image from gallery</string>
-    <string name="text_date">20/02/2020</string>
     <string name="text_time">9.00 AM</string>
     <string name="text_place">library</string>
     <string name="text_hour">3 hr</string>
@@ -70,6 +67,8 @@
     <string name="text_time_to_time">9.00-12.00 AM</string>
     <string name="text_member">join people</string>
     <string name="button_join">join</string>
+    <string name="text_date">20/02/2020</string>
+    <string name="app_name">WeRead</string>
 
 
 </resources>

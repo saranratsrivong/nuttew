@@ -282,7 +282,7 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
-                        android:text="@string/text_date"
+                        android:text="@string/text_date_day"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/image_calendar"
                         app:layout_constraintTop_toBottomOf="@+id/view" />

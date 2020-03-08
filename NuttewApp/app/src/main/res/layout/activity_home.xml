@@ -58,9 +58,6 @@
             android:iconifiedByDefault="false"
             android:queryHint="Search here"></SearchView>
 
-
-
-
     </GridLayout>
 
 
@@ -178,13 +175,14 @@
                         android:layout_weight="1">
 
                     </TextView>
+
                     <TextView
                         android:id="@+id/text_time1"
-                        android:text="@string/text_time"
-
                         android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="9.00 AM">
 
                     </TextView>
                     <TextView
@@ -310,19 +308,20 @@
 
                     <TextView
                         android:id="@+id/text_date2"
-                        android:text="@string/text_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="@string/text_date">
 
                     </TextView>
+
                     <TextView
                         android:id="@+id/text_time2"
-                        android:text="@string/text_time"
-
                         android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="12.00 AM">
 
                     </TextView>
                     <TextView
@@ -453,12 +452,13 @@
                         android:layout_weight="1">
 
                     </TextView>
+
                     <TextView
                         android:id="@+id/text_time3"
-                        android:text="@string/text_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="10.00 AM">
 
                     </TextView>
                     <TextView
@@ -591,13 +591,14 @@
                         android:layout_weight="1">
 
                     </TextView>
+
                     <TextView
                         android:id="@+id/text_time4"
-                        android:text="@string/text_time"
-
                         android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="11.00 AM">
 
                     </TextView>
                     <TextView
@@ -730,13 +731,14 @@
                         android:layout_weight="1">
 
                     </TextView>
+
                     <TextView
                         android:id="@+id/text_time5"
-                        android:text="@string/text_time"
-
                         android:layout_width="wrap_content"
+
                         android:layout_height="wrap_content"
-                        android:layout_weight="1">
+                        android:layout_weight="1"
+                        android:text="1.00 PM">
 
                     </TextView>
                     <TextView

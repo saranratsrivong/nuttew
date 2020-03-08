@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Nuttew</string>
+    <string name="app_name">WeRead</string>
     <string name="button_login">เข้าสู่ระบบ</string>
     <string name="button_register">สมัคร</string>
     <string name="button_signup">สมัคร</string>
@@ -25,7 +25,6 @@
     <string name="text_topic">หัวข้อ</string>
     <string name="text_by">โดย</string>
     <string name="text_subject">วิชา</string>
-    <string name="text_date">20/02/2020</string>
     <string name="text_time">9.00 น.</string>
     <string name="text_place">ห้องสมุดกลาง</string>
     <string name="text_hour">3 ชม.</string>
@@ -39,4 +38,25 @@
     <string name="text_time_to_time">9.00-12.00 AM</string>
     <string name="text_member">รายชื่อผู้เข้าร่วม</string>
     <string name="button_join">เข้าร่วม</string>
+    <string name="text_date">20/02/2020</string>
+    <string name="account_info">ข้อมูลส่วนตัว</string>
+    <string name="account_settings">บัญชี</string>
+    <string name="add_friend">เพิ่มเพื่อน</string>
+    <string name="back_to_home">กลับไปหน้าหลัก</string>
+    <string name="enter_your_email">กรุณากรอก email</string>
+    <string name="faculty">คณะ : วิศวกรรม</string>
+    <string name="female">หญิง</string>
+    <string name="gender_profile">เพศ</string>
+    <string name="id">ไอดี</string>
+    <string name="logout_settings">ออกจากระบบ</string>
+    <string name="major_en">วิศวกรรม</string>
+    <string name="major_profile">สาขาวิชา</string>
+    <string name="name_head">ชื่อ</string>
+    <string name="name_profile">ชื่อ</string>
+    <string name="profile_settings">โปรไฟล์</string>
+    <string name="report_settings">รายงานปัญหา</string>
+    <string name="request_friend">คำขอเป็นเป็นเพื่อน</string>
+    <string name="search">ค้นหา</string>
+    <string name="select_image_gallery">เลือกรูปจากแกลอรี่</string>
+    <string name="take_screenshot">เพิ่มรูปภาพ</string>
 </resources>
