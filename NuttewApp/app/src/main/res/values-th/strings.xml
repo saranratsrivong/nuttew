@@ -39,4 +39,13 @@
     <string name="text_time_to_time">9.00-12.00 AM</string>
     <string name="text_member">รายชื่อผู้เข้าร่วม</string>
     <string name="button_join">เข้าร่วม</string>
+    <string name="year_3">3</string>
+    <string name="year">ปี</string>
+    <string name="what_wrong">เกิดอะไรขึ้น?</string>
+    <string name="username_radio">ชื่อผู้ใช้</string>
+    <string name="username_profile">\@ชื่อผู้ใช้</string>
+    <string name="username">ชื่อผู้ใช้ : เอ</string>
+    <string name="toolbar_settings">ตั้งค</string>
+    <string name="toolbar_report">รายงาน</string>
+    <string name="toolbar_profile">โปรไฟล์</string>
 </resources>
