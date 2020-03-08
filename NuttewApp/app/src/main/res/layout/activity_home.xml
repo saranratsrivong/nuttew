@@ -60,395 +60,721 @@
 
     </GridLayout>
 
-    <FrameLayout
-        android:id="@+id/LayoutRoom1"
+
+    <ScrollView
+        android:id="@+id/scroll_select"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/search_grid">
-
-
-
-
-    <LinearLayout
-        app:layout_constraintTop_toBottomOf="@id/search_grid"
-        android:layout_marginTop="10dp"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        app:layout_constraintTop_toBottomOf="@+id/search_grid">
 
         <LinearLayout
-            android:background="@drawable/bg_header_ofhomepage"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:paddingBottom="10dp"
+            android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/LayoutRoom1"
+                android:background="@drawable/bg_header_ofhomepage"
                 android:orientation="vertical"
-                android:gravity="left"
-                android:padding="10dp"
+                android:gravity="center"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:layout_marginTop="5dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="อ่านหนังสือเตรียทสอบ">
 
-                </TextView>
-                <TextView
-                    android:text="PIN : 123456"
+                    <RelativeLayout
+                        android:orientation="vertical"
+                        android:gravity="left"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/image_profile1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/eskimo"
+                            android:layout_gravity="center_vertical|left">
+
+
+                        </ImageView>
+                        <LinearLayout
+                            android:id="@+id/text_g_linear1"
+                            android:orientation="vertical"
+                            android:paddingLeft="20dp"
+                            android:layout_toEndOf="@id/image_profile1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+
+                            <TextView
+
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/text_title">
+
+                            </TextView>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:id="@+id/img_host1"
+                                    android:src="@drawable/ic_person_black_24dp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                </ImageView>
+                            <TextView
+                                android:text="by Saranrat1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place"
+                                android:src="@drawable/ic_place_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:gravity="start"
+                                android:text="@string/text_place"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                </TextView>
+                    <TextView
+                        android:id="@+id/text_date1"
+                        android:text="@string/text_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
 
-                <TextView
-                    android:text="by Saranrat"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_time1"
+                        android:text="@string/text_time"
 
-                </TextView>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_hour1"
+                        android:text="@string/text_hour"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TextView>
+                    <ImageView
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/text_people1"
+                        android:text="@string/text_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
 
 
+                </LinearLayout>
             </LinearLayout>
 
             <LinearLayout
-                android:padding="10dp"
-                android:background="@drawable/bg_white_ofhomepage"
-
+                android:id="@+id/LayoutRoom2"
+                android:background="@drawable/bg_header_ofhomepage"
                 android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:text="subject : math"
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:padding="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                </TextView>
+                    <ImageView
+                        android:id="@+id/image_profile2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/woman"
+                        android:layout_gravity="center_vertical|left">
 
-                <TextView
-                    android:text="วันที่ 20/01/20 เวลา 9.00-12.00น."
+
+                    </ImageView>
+                    <LinearLayout
+                        android:id="@+id/text_g_linear2"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:layout_toEndOf="@id/image_profile2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host2"
+                                android:src="@drawable/ic_person_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:text="by Saranrat2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place2"
+                                android:src="@drawable/ic_place_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:gravity="start"
+                                android:text="@string/text_place"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-                </TextView>
+                    <TextView
+                        android:id="@+id/text_date2"
+                        android:text="@string/text_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
 
-                <TextView
-                    android:text="สถานที่ : ห้องสมุดกลาง"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_time2"
+                        android:text="@string/text_time"
 
-                </TextView>
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_hour2"
+                        android:text="@string/text_hour"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TextView>
+                    <ImageView
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/text_people2"
+                        android:text="@string/text_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                </LinearLayout>
             </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LayoutRoom3"
+                android:background="@drawable/bg_header_ofhomepage"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center_vertical|left">
+
+
+                    </ImageView>
+                    <LinearLayout
+                        android:id="@+id/text_g_linear3"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:layout_toEndOf="@id/image_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host3"
+                                android:src="@drawable/ic_person_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:text="by Saranrat3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place3"
+                                android:src="@drawable/ic_place_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:gravity="start"
+                                android:text="@string/text_place"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_date3"
+                        android:text="@string/text_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_time3"
+                        android:text="@string/text_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_hour3"
+                        android:text="@string/text_hour"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TextView>
+                    <ImageView
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/text_people3"
+                        android:text="@string/text_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- room 4-->
+            <LinearLayout
+                android:id="@+id/LayoutRoom4"
+                android:background="@drawable/bg_header_ofhomepage"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_profile4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center_vertical|left">
+
+
+                    </ImageView>
+                    <LinearLayout
+                        android:id="@+id/text_g_linear4"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:layout_toEndOf="@id/image_profile4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host4"
+                                android:src="@drawable/ic_person_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:text="by Saranrat4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place4"
+                                android:src="@drawable/ic_place_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:gravity="start"
+                                android:text="@string/text_place"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_date4"
+                        android:text="@string/text_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_time4"
+                        android:text="@string/text_time"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_hour4"
+                        android:text="@string/text_hour"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TextView>
+                    <ImageView
+                        android:src="@drawable/ic_person_black_24dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/text_people4"
+                        android:text="@string/text_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- room 5-->
+            <LinearLayout
+                android:id="@+id/LayoutRoom5"
+                android:background="@drawable/bg_header_ofhomepage"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_profile5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/man"
+                        android:layout_gravity="center_vertical|left">
+
+
+                    </ImageView>
+                    <LinearLayout
+                        android:id="@+id/text_g_linear5"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:layout_toEndOf="@id/image_profile5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host5"
+                                android:src="@drawable/ic_person_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:text="by Saranrat5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                            </TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place5"
+                                android:src="@drawable/ic_place_black_24dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                            </ImageView>
+                            <TextView
+                                android:gravity="start"
+                                android:text="@string/text_place"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="10dp"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/text_date5"
+                        android:text="@string/text_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_time5"
+                        android:text="@string/text_time"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/text_hour5"
+                        android:text="@string/text_hour"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+                    </TextView>
+                    <ImageView
+                        android:src="@drawable/ic_person_black_24dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </ImageView>
+                    <TextView
+                        android:id="@+id/text_people5"
+                        android:text="@string/text_people"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                    </TextView>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
 
-    </LinearLayout>
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
-            android:src="@drawable/eskimo"
 
-            android:layout_gravity="center_vertical|right">
 
+    </ScrollView>
 
-        </ImageView>
-    </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/LayoutRoom2"
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/LayoutRoom1"
-        >
 
-    <LinearLayout
 
-        android:layout_marginTop="30dp"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <LinearLayout
-            android:background="@drawable/bg_header_ofhomepage"
-
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:padding="10dp"
-                android:layout_marginTop="5dp"
-                android:orientation="vertical"
-                android:gravity="left"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="อ่านหนังสือเตรียทสอบ">
-
-                </TextView>
-                <TextView
-                    android:text="PIN : 123456"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="by Saranrat"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:padding="10dp"
-                android:background="@drawable/bg_white_ofhomepage"
-
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:text="subject : math"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="วันที่ 20/01/20 เวลา 9.00-12.00น."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="สถานที่ : ห้องสมุดกลาง"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="50dp"
-        android:src="@drawable/eskimo"
-
-        android:layout_gravity="center_vertical|right">
-
-
-    </ImageView>
-</FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/LayoutRoom3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/LayoutRoom2"
-        >
-    <LinearLayout
-
-        app:layout_constraintTop_toBottomOf="@id/LayoutRoom2"
-        android:layout_marginTop="30dp"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <LinearLayout
-            android:background="@drawable/bg_header_ofhomepage"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:padding="10dp"
-                android:layout_marginTop="5dp"
-                android:orientation="vertical"
-                android:gravity="left"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="อ่านหนังสือเตรียทสอบ">
-
-                </TextView>
-                <TextView
-                    android:text="PIN : 123456"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="by Saranrat"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:padding="10dp"
-                android:background="@drawable/bg_white_ofhomepage"
-
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:text="subject : math"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="วันที่ 20/01/20 เวลา 9.00-12.00น."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="สถานที่ : ห้องสมุดกลาง"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
-            android:src="@drawable/eskimo"
-
-            android:layout_gravity="center_vertical|right">
-
-
-        </ImageView>
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/LayoutRoom4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/LayoutRoom3">
-    <LinearLayout
-
-        android:layout_marginTop="30dp"
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <LinearLayout
-            android:background="@drawable/bg_header_ofhomepage"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:layout_marginStart="30dp"
-            android:layout_marginEnd="30dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:padding="10dp"
-                android:layout_marginTop="5dp"
-                android:orientation="vertical"
-                android:gravity="left"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="อ่านหนังสือเตรียทสอบ">
-
-                </TextView>
-                <TextView
-                    android:text="PIN : 123456"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="by Saranrat"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:padding="10dp"
-                android:background="@drawable/bg_white_ofhomepage"
-
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:text="subject : math"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="วันที่ 20/01/20 เวลา 9.00-12.00น."
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-
-                <TextView
-                    android:text="สถานที่ : ห้องสมุดกลาง"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                </TextView>
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="50dp"
-            android:src="@drawable/eskimo"
-
-            android:layout_gravity="center_vertical|right">
-
-
-        </ImageView>
-    </FrameLayout>
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/toolBarBottom"
