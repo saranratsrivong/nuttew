@@ -25,7 +25,18 @@
     <string name="text_topic">หัวข้อ</string>
     <string name="text_by">โดย</string>
     <string name="text_subject">วิชา</string>
-    <string name="text_date">วันที่</string>
-    <string name="text_time">เวลา</string>
-    <string name="text_place">สถานที่</string>
+    <string name="text_date">20/02/2020</string>
+    <string name="text_time">9.00 น.</string>
+    <string name="text_place">ห้องสมุดกลาง</string>
+    <string name="text_hour">3 ชม.</string>
+    <string name="text_people">0/4</string>
+    <string name="text_title">อ่านหนังสือเตรียมสอบ\n</string>
+    <string name="text_pin">รหัส ห้อง: 123456</string>
+    <string name="text_host">by Saranrat</string>
+    <string name="text_detail">รายละเอียด</string>
+    <string name="text_subject_math">คณิตศาสตร์</string>
+    <string name="text_phone">081-2345678</string>
+    <string name="text_time_to_time">9.00-12.00 AM</string>
+    <string name="text_member">รายชื่อผู้เข้าร่วม</string>
+    <string name="button_join">เข้าร่วม</string>
 </resources>

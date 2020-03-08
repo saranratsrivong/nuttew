@@ -56,6 +56,20 @@
     <string name="what_wrong">What went wrong?</string>
     <string name="take_screenshot">Take a screenshot</string>
     <string name="select_image_gallery">Select image from gallery</string>
+    <string name="text_date">20/02/2020</string>
+    <string name="text_time">9.00 AM</string>
+    <string name="text_place">library</string>
+    <string name="text_hour">3 hr</string>
+    <string name="text_people">0/4</string>
+    <string name="text_title">Read a book for exam</string>
+    <string name="text_pin">PIN : 123456</string>
+    <string name="text_host">by Saranrat</string>
+    <string name="text_detail">detail</string>
+    <string name="text_subject_math">mathematics</string>
+    <string name="text_phone">081-2345678</string>
+    <string name="text_time_to_time">9.00-12.00 AM</string>
+    <string name="text_member">join people</string>
+    <string name="button_join">join</string>
 
 
 </resources>
