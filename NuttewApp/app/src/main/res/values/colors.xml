@@ -8,5 +8,9 @@
     <color name="listSelectorChat">#FFF1CE</color>
     <color name="toolBarBottom">#FFF6E2</color>
     <color name="whiteCearteRoom">#B3FFFFFF</color>
+    <color name="requestfriend">#EBE0D4</color>
+    <color name="searchfriend">#FFE9D6</color>
+    <color name="tick_add_friend">#EBE0D4</color>
+    <color name="untick_add_friend">#FFE9D6</color>
 
 </resources>

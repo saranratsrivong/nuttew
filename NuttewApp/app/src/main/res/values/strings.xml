@@ -27,6 +27,35 @@
     <string name="text_date">date</string>
     <string name="text_time">time</string>
     <string name="text_place">place</string>
+    <string name="add_friend">ADD FRIEND</string>
+    <string name="request_friend">Request Friend</string>
+    <string name="search">Search</string>
+    <string name="faculty">Faculty : EN</string>
+    <string name="username">Username : A</string>
+    <string name="id">ID</string>
+    <string name="username_radio">Username</string>
+    <string name="toolbar_profile">PROFILE</string>
+    <string name="account_info">Account Info</string>
+    <string name="name_profile">Name</string>
+    <string name="name_head">Name</string>
+    <string name="username_profile">\@username</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="major_profile">Major</string>
+    <string name="major_en">Engineer</string>
+    <string name="gender_profile">Gender</string>
+    <string name="female">Female</string>
+    <string name="year">Year</string>
+    <string name="year_3">3</string>
+    <string name="toolbar_settings">SETTINGS</string>
+    <string name="profile_settings">Profile</string>
+    <string name="account_settings">Account</string>
+    <string name="report_settings">Report a Problem</string>
+    <string name="logout_settings">Log out</string>
+    <string name="toolbar_report">REPORTS</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="what_wrong">What went wrong?</string>
+    <string name="take_screenshot">Take a screenshot</string>
+    <string name="select_image_gallery">Select image from gallery</string>
 
 
 </resources>

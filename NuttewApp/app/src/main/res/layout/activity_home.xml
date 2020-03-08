@@ -21,7 +21,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/toolbar_chat_title"
+                android:id="@+id/toolbar_addfriend_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -470,11 +470,13 @@
             </ImageView>
 
             <ImageView
+                android:id="@+id/friendIcon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
+                android:onClick="friendPage"
                 android:background="@mipmap/ic_friend">
 
             </ImageView>
@@ -485,11 +487,13 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_chat">
+                android:background="@mipmap/ic_chat"
+                android:onClick="chatPage">
 
             </ImageView>
 
             <ImageView
+                android:onClick="settingsPage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"

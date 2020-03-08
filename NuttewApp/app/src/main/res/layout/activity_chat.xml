@@ -21,7 +21,7 @@
             tools:layout_editor_absoluteX="16dp">
 
             <TextView
-                android:id="@+id/toolbar_chat_title"
+                android:id="@+id/toolbar_addfriend_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -45,7 +45,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.9"
-                app:layout_constraintStart_toEndOf="@+id/toolbar_chat_title"
+                app:layout_constraintStart_toEndOf="@+id/toolbar_addfriend_title"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -83,16 +83,16 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ListView
-        android:id="@+id/chatListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <ScrollView
+        android:id="@+id/scrollChatView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:divider="@color/dividerChat"
         android:listSelector="@color/listSelectorChat"
-        app:layout_constraintBottom_toTopOf="@id/tab_profile"
-        app:layout_constraintTop_toBottomOf="@+id/toolBar_bottom">
-
-    </ListView>
+        app:layout_constraintBottom_toTopOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_profile" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar_bottom"
