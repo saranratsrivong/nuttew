@@ -71,6 +71,7 @@
         android:layout_height="wrap_content"
         android:background="@color/untick_add_friend"
         android:gravity="center"
+        android:onClick="searchFriend"
         android:padding="10dp"
         android:text="@string/search"
         android:textSize="18sp"
@@ -212,7 +213,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_home">
+                android:background="@mipmap/ic_home"
+                android:onClick="HomePage">
 
             </ImageView>
 
@@ -232,7 +234,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_chat">
+                android:background="@mipmap/ic_chat"
+                android:onClick="chatPage">
 
             </ImageView>
 
@@ -242,7 +245,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_setting">
+                android:background="@mipmap/ic_setting"
+                android:onClick="settingsPage">
 
             </ImageView>
         </LinearLayout>

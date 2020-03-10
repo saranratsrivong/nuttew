@@ -30,13 +30,15 @@
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:id="@+id/toolbar_addfriend_title" />
+
             <Button
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:backgroundTint="@color/colorToolBar"
                 android:layout_alignParentLeft="true"
                 android:layout_centerInParent="true"
-                android:background="@drawable/ic_back" />
+                android:background="@drawable/ic_back"
+                android:backgroundTint="@color/colorToolBar"
+                android:onClick="HomePage" />
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
@@ -134,40 +136,48 @@
             android:weightSum="4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
+
             <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
                 android:layout_weight="1"
                 android:background="@mipmap/ic_home"
+                android:onClick="HomePage">
+
+            </ImageView>
+
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp">
-
-            </ImageView>
-            <ImageView
+                android:layout_marginRight="25dp"
                 android:layout_weight="1"
                 android:background="@mipmap/ic_friend"
+                android:onClick="friendPage">
+
+            </ImageView>
+
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp">
-
-            </ImageView>
-            <ImageView
+                android:layout_marginRight="25dp"
                 android:layout_weight="1"
                 android:background="@mipmap/ic_chat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp">
+                android:onClick="friendPage">
 
             </ImageView>
+
             <ImageView
-                android:layout_weight="1"
-                android:background="@mipmap/ic_setting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp">
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_setting"
+                android:onClick="settingsPage">
 
             </ImageView>
         </LinearLayout>

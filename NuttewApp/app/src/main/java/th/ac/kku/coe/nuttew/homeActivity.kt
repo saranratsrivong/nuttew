@@ -18,7 +18,7 @@ class homeActivity : AppCompatActivity() {
             requestFriendActivity::class.java).apply {
 
         }
-        startActivity(intent);
+        startActivity(intent)
     }
 
     fun chatPage(view: View) {
@@ -26,7 +26,7 @@ class homeActivity : AppCompatActivity() {
             chatActivity::class.java).apply {
 
         }
-        startActivity(intent);
+        startActivity(intent)
     }
 
     fun settingsPage(view: View) {
@@ -34,6 +34,14 @@ class homeActivity : AppCompatActivity() {
             settingActivity::class.java).apply {
 
         }
-        startActivity(intent);
+        startActivity(intent)
+    }
+
+    fun createRoompage(view :View){
+        val intent = Intent(this,
+            createRoomActivity::class.java).apply {
+
+        }
+        startActivity(intent)
     }
 }
