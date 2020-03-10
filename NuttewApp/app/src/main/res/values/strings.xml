@@ -69,6 +69,7 @@
     <string name="text_date">20/02/2020</string>
     <string name="app_name">WeRead</string>
     <string name="text_place">place</string>
+    <string name="text_id_show">ID  ex. 603040123-4</string>
 
 
 </resources>
