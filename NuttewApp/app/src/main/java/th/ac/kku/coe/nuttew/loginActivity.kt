@@ -46,16 +46,10 @@ class loginActivity : AppCompatActivity() {
         // Configure Google Sign In
         // Configure Google Sign In
 
-
-
-
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(getString(R.string.default_web_client_id))
             .requestEmail()
             .build()
-
-
-
 
 
         googleSignInClient = GoogleSignIn.getClient(this, gso)
@@ -138,6 +132,7 @@ class loginActivity : AppCompatActivity() {
 
     public override fun onStart() {
         super.onStart()
+        /*
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
 
@@ -147,7 +142,7 @@ class loginActivity : AppCompatActivity() {
 
             }
             startActivity(intent)
-        }
+        }*/
     }
 
 
