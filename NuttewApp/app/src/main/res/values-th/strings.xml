@@ -31,11 +31,11 @@
     <string name="text_people">0/4</string>
     <string name="text_title">อ่านหนังสือเตรียมสอบ\n</string>
     <string name="text_pin">รหัส ห้อง: 123456</string>
-    <string name="text_host">by Saranrat</string>
+    <string name="text_host">Saranrat</string>
     <string name="text_detail">รายละเอียด</string>
     <string name="text_subject_math">คณิตศาสตร์</string>
     <string name="text_phone">081-2345678</string>
-    <string name="text_time_to_time">9.00-12.00 AM</string>
+    <string name="text_time_to_time">9.00-12.00 น.</string>
     <string name="text_member">รายชื่อผู้เข้าร่วม</string>
     <string name="button_join">เข้าร่วม</string>
     <string name="text_date">20/02/2020</string>
@@ -65,10 +65,10 @@
     <string name="username_radio">ชื่อผู้ใช้</string>
     <string name="username_profile">\@ชื่อผู้ใช้</string>
     <string name="username">ชื่อผู้ใช้ : เอ</string>
-    <string name="toolbar_settings">ตั้งค</string>
+    <string name="toolbar_settings">ตั้งค่า</string>
     <string name="toolbar_report">รายงาน</string>
     <string name="toolbar_profile">โปรไฟล์</string>
     <string name="text_time_num">9.00 นาฬิกา</string>
     <string name="text_place">สถานที่</string>
-    <string name="text_id_show">ID  ex. 603040123-4</string>
+    <string name="text_id_show">ตัวอย่าง รหัสนศ. 603040123-4</string>
 </resources>

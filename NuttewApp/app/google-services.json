@@ -52,6 +52,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "310412588565-5vakgd791osgmc3v5ii4t3kjgadascbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.kku.coe.nuttew",
+            "certificate_hash": "96ac3c160dcd5aa14cb9cd51d494f835016c33e8"
+          }
+        },
+        {
           "client_id": "310412588565-8cnjurf3nonja46dvjedq3ib6n2hhuri.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
