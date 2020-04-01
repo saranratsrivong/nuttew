@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="margin50">50dp</dimen>
+    <dimen name="magin_top_bottombar">8dp</dimen>
+    <dimen name="textsize_bottombar">12sp</dimen>
 </resources>

@@ -70,6 +70,10 @@
     <string name="app_name">WeRead</string>
     <string name="text_place">place</string>
     <string name="text_id_show">ID  ex. 603040123-4</string>
+    <string name="home_button">Home</string>
+    <string name="friend">Friend</string>
+    <string name="chat">Chat</string>
+    <string name="setting">Setting</string>
 
 
 </resources>
