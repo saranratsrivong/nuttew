@@ -29,7 +29,7 @@
                 android:textSize="20sp"
                 android:layout_centerInParent="true"
                 android:layout_gravity="center"
-                android:id="@+id/toolbar_addfriend_title" />
+                android:id="@+id/toolbar_account" />
 
             <Button
                 android:layout_width="40dp"
