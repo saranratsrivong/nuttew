@@ -16,9 +16,9 @@ class registerActivity : AppCompatActivity() {
 
         val textmail : EditText = findViewById(R.id.editText2)
 
-        val name = intent.getStringExtra("Mail")
+//        val name = intent.getStringExtra("Mail")
 
-        textmail.setText(name)
+  //      textmail.setText(name)
 
         val register : Button = findViewById(R.id.signup)
 
@@ -29,6 +29,9 @@ class registerActivity : AppCompatActivity() {
         }
 
     }
+
+
+    
 
     private fun signupClick(){
         val intent = Intent(this,homeActivity::class.java)
