@@ -55,8 +55,8 @@
     <string name="select_image_gallery">Select image from gallery</string>
     <string name="text_time_num">9.00 AM</string>
     <string name="text_library">library</string>
-    <string name="text_hour">3 hr</string>
-    <string name="text_people">0/4</string>
+    <string name="text_hour">time : 3 hour</string>
+    <string name="text_people">people : 0/4</string>
     <string name="text_title">Read a book for exam</string>
     <string name="text_pin">PIN : 123456</string>
     <string name="text_host">Saranrat</string>
@@ -66,10 +66,12 @@
     <string name="text_time_to_time">9.00-12.00 AM</string>
     <string name="text_member">join people</string>
     <string name="button_join">join</string>
-    <string name="text_date">20/02/2020</string>
+    <string name="text_date">date : 20/02/2020</string>
     <string name="app_name">WeRead</string>
     <string name="text_place">place</string>
     <string name="text_id_show">ID  ex. 603040123-4</string>
+    <string name="createroomText">Create room</string>
+    <string name="startTime">start : 9.00 AM</string>
 
 
 </resources>
