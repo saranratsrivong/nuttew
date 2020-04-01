@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:height="60dp"
-        android:width="70dp">
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="rectangle">
-            <solid android:color="#FFFFFF"/>
-            <corners android:radius="5dp"/>
-        </shape>
-    </item>
 
-    <item android:width="60dp"
-        android:height="60dp"
+
+    <item android:width="300dp"
+        android:height="50dp"
         android:gravity="center"
-        android:drawable="@drawable/ic_gmail"/>
+        android:drawable="@drawable/gmailSignin"/>
 
 
 </layer-list>
