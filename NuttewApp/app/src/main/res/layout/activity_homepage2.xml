@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homeActivity">
-
+    tools:context=".Homepage2Activity">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/myToolBar"
         android:layout_width="match_parent"
@@ -97,156 +95,10 @@
             android:orientation="vertical"
             android:paddingBottom="10dp">
 
+            <!-- -->
+            <!-- room 6-->
             <LinearLayout
-                android:id="@+id/LayoutRoom1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginEnd="30dp"
-                android:background="@drawable/bg_header_ofhomepage"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:id="@+id/image_profile1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical|left"
-                        android:src="@drawable/eskimo">
-
-
-                    </ImageView>
-
-                    <LinearLayout
-                        android:id="@+id/text_g_linear1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_toEndOf="@id/image_profile1"
-                        android:orientation="vertical"
-                        android:paddingLeft="20dp">
-
-                        <TextView
-                            android:id="@+id/titletx1"
-                            style="@style/HomeTitleText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/text_title">
-
-                        </TextView>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:id="@+id/img_host1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_person_black_24dp"></ImageView>
-
-                            <TextView
-                                android:id="@+id/user_host1"
-                                style="@style/HomeText"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="by Saranrat1"></TextView>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:id="@+id/img_place1"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_place_black_24dp"></ImageView>
-
-                            <TextView
-                                android:id="@+id/text_place1"
-                                style="@style/HomeText"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:text="@string/text_library">
-
-                            </TextView>
-                        </LinearLayout>
-                    </LinearLayout>
-                </RelativeLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bg_white_ofhomepage"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-
-                        <TextView
-                            android:id="@+id/text_date1"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_date">
-
-                        </TextView>
-
-                        <TextView
-                            android:id="@+id/text_time1"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/startTime">
-
-                        </TextView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/text_hour1"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
-                            android:id="@+id/text_people1"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_people">
-
-                        </TextView>
-                    </LinearLayout>
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/LayoutRoom2"
+                android:id="@+id/LayoutRoom6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -264,157 +116,7 @@
                     android:padding="10dp">
 
                     <ImageView
-                        android:id="@+id/image_profile2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical|left"
-                        android:src="@drawable/woman">
-
-
-                    </ImageView>
-
-                    <LinearLayout
-                        android:id="@+id/text_g_linear2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_toEndOf="@id/image_profile2"
-                        android:orientation="vertical"
-                        android:paddingLeft="20dp">
-
-                        <TextView
-                            android:id="@+id/titletx2"
-                            style="@style/HomeTitleText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/text_title">
-
-                        </TextView>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:id="@+id/img_host2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_person_black_24dp"></ImageView>
-
-                            <TextView
-                                android:id="@+id/user_host2"
-                                style="@style/HomeText"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="by Saranrat2"></TextView>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content">
-
-                            <ImageView
-                                android:id="@+id/img_place2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:src="@drawable/ic_place_black_24dp"></ImageView>
-
-                            <TextView
-                                android:id="@+id/text_place2"
-                                style="@style/HomeText"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:text="@string/text_library">
-
-                            </TextView>
-                        </LinearLayout>
-                    </LinearLayout>
-                </RelativeLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/bg_white_ofhomepage"
-                    android:gravity="center"
-                    android:orientation="vertical"
-                    android:padding="8dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-
-                        <TextView
-                            android:id="@+id/text_date2"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_date">
-
-                        </TextView>
-
-                        <TextView
-                            android:id="@+id/text_time2"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/startTime">
-
-                        </TextView>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/text_hour2"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
-                            android:id="@+id/text_people2"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_people">
-
-                        </TextView>
-                    </LinearLayout>
-
-
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/LayoutRoom3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="30dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="30dp"
-                android:background="@drawable/bg_header_ofhomepage"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="left"
-                    android:orientation="vertical"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:id="@+id/image_profile"
+                        android:id="@+id/image_profile6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|left"
@@ -424,15 +126,15 @@
                     </ImageView>
 
                     <LinearLayout
-                        android:id="@+id/text_g_linear3"
+                        android:id="@+id/text_g_linear6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toEndOf="@id/image_profile"
+                        android:layout_toEndOf="@id/image_profile6"
                         android:orientation="vertical"
                         android:paddingLeft="20dp">
 
                         <TextView
-                            android:id="@+id/titletx3"
+                            android:id="@+id/titletx6"
                             style="@style/HomeTitleText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -445,13 +147,310 @@
                             android:layout_height="wrap_content">
 
                             <ImageView
-                                android:id="@+id/img_host3"
+                                android:id="@+id/img_host6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_person_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/user_host3"
+                                android:id="@+id/user_host6"
+                                style="@style/HomeText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="by Saranrat6"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_place_black_24dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/text_place6"
+                                style="@style/HomeText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/text_library">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/text_date6"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_date">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/text_time6"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/startTime">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_hour6"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_hour"></TextView>
+
+                        <TextView
+                            android:id="@+id/text_people6"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_people">
+
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- room 7-->
+            <LinearLayout
+                android:id="@+id/LayoutRoom7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bg_header_ofhomepage"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/image_profile7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/man">
+                    </ImageView>
+
+                    <LinearLayout
+                        android:id="@+id/text_g_linear7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/image_profile7"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/titletx7"
+                            style="@style/HomeTitleText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_person_black_24dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/user_host7"
+                                style="@style/HomeText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="by Saranrat7"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/img_place7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_place_black_24dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/text_place7"
+                                style="@style/HomeText"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="start"
+                                android:text="@string/text_library">
+
+                            </TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_white_ofhomepage"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/text_date7"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_date">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/text_time7"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/startTime">
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/text_hour7"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_hour"></TextView>
+
+                        <TextView
+                            android:id="@+id/text_people7"
+                            style="@style/HomeText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/text_people">
+
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <!-- room 8-->
+            <LinearLayout
+                android:id="@+id/LayoutRoom8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/bg_header_ofhomepage"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/image_profile8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|left"
+                        android:src="@drawable/man">
+
+
+                    </ImageView>
+
+                    <LinearLayout
+                        android:id="@+id/text_g_linear8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/image_profile8"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp">
+
+                        <TextView
+                            android:id="@+id/titletx8"
+                            style="@style/HomeTitleText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/text_title">
+
+                        </TextView>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/img_host8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_person_black_24dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/user_host8"
                                 style="@style/HomeText"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -464,13 +463,13 @@
 
 
                             <ImageView
-                                android:id="@+id/img_place3"
+                                android:id="@+id/img_place8"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_place_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/text_place3"
+                                android:id="@+id/text_place8"
                                 style="@style/HomeText"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -497,7 +496,7 @@
 
 
                         <TextView
-                            android:id="@+id/text_date3"
+                            android:id="@+id/text_date8"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -507,7 +506,7 @@
                         </TextView>
 
                         <TextView
-                            android:id="@+id/text_time3"
+                            android:id="@+id/text_time8"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -523,7 +522,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour3"
+                            android:id="@+id/text_hour8"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -531,7 +530,7 @@
                             android:text="@string/text_hour"></TextView>
 
                         <TextView
-                            android:id="@+id/text_people3"
+                            android:id="@+id/text_people8"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -540,13 +539,12 @@
 
                         </TextView>
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- room 4-->
+            <!-- room 9-->
             <LinearLayout
-                android:id="@+id/LayoutRoom4"
+                android:id="@+id/LayoutRoom9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -564,7 +562,7 @@
                     android:padding="10dp">
 
                     <ImageView
-                        android:id="@+id/image_profile4"
+                        android:id="@+id/image_profile9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|left"
@@ -574,15 +572,15 @@
                     </ImageView>
 
                     <LinearLayout
-                        android:id="@+id/text_g_linear4"
+                        android:id="@+id/text_g_linear9"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toEndOf="@id/image_profile4"
+                        android:layout_toEndOf="@id/image_profile9"
                         android:orientation="vertical"
                         android:paddingLeft="20dp">
 
                         <TextView
-                            android:id="@+id/titletx4"
+                            android:id="@+id/titletx9"
                             style="@style/HomeTitleText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -595,17 +593,17 @@
                             android:layout_height="wrap_content">
 
                             <ImageView
-                                android:id="@+id/img_host4"
+                                android:id="@+id/img_host9"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_person_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/user_host4"
+                                android:id="@+id/user_host9"
                                 style="@style/HomeText"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="by Saranrat4"></TextView>
+                                android:text="by Saranrat3"></TextView>
                         </LinearLayout>
 
                         <LinearLayout
@@ -614,13 +612,13 @@
 
 
                             <ImageView
-                                android:id="@+id/img_place4"
+                                android:id="@+id/img_place9"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_place_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/text_place4"
+                                android:id="@+id/text_place9"
                                 style="@style/HomeText"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -647,7 +645,7 @@
 
 
                         <TextView
-                            android:id="@+id/text_date4"
+                            android:id="@+id/text_date9"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -657,7 +655,7 @@
                         </TextView>
 
                         <TextView
-                            android:id="@+id/text_time4"
+                            android:id="@+id/text_time9"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -673,7 +671,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour4"
+                            android:id="@+id/text_hour9"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -681,7 +679,7 @@
                             android:text="@string/text_hour"></TextView>
 
                         <TextView
-                            android:id="@+id/text_people4"
+                            android:id="@+id/text_people9"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -690,13 +688,12 @@
 
                         </TextView>
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
-            <!-- room 5-->
+            <!-- room 10-->
             <LinearLayout
-                android:id="@+id/LayoutRoom5"
+                android:id="@+id/LayoutRoom10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
@@ -714,7 +711,7 @@
                     android:padding="10dp">
 
                     <ImageView
-                        android:id="@+id/image_profile5"
+                        android:id="@+id/image_profile10"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical|left"
@@ -724,15 +721,15 @@
                     </ImageView>
 
                     <LinearLayout
-                        android:id="@+id/text_g_linear5"
+                        android:id="@+id/text_g_linear10"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toEndOf="@id/image_profile5"
+                        android:layout_toEndOf="@id/image_profile10"
                         android:orientation="vertical"
                         android:paddingLeft="20dp">
 
                         <TextView
-                            android:id="@+id/titletx5"
+                            android:id="@+id/titletx10"
                             style="@style/HomeTitleText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -745,17 +742,17 @@
                             android:layout_height="wrap_content">
 
                             <ImageView
-                                android:id="@+id/img_host5"
+                                android:id="@+id/img_host10"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_person_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/user_host5"
+                                android:id="@+id/user_host10"
                                 style="@style/HomeText"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="by Saranrat5"></TextView>
+                                android:text="by Saranrat3"></TextView>
                         </LinearLayout>
 
                         <LinearLayout
@@ -764,13 +761,13 @@
 
 
                             <ImageView
-                                android:id="@+id/img_place5"
+                                android:id="@+id/img_place10"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_place_black_24dp"></ImageView>
 
                             <TextView
-                                android:id="@+id/text_place5"
+                                android:id="@+id/text_place10"
                                 style="@style/HomeText"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -781,6 +778,9 @@
                         </LinearLayout>
                     </LinearLayout>
                 </RelativeLayout>
+
+
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -797,7 +797,7 @@
 
 
                         <TextView
-                            android:id="@+id/text_date5"
+                            android:id="@+id/text_date10"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -807,7 +807,7 @@
                         </TextView>
 
                         <TextView
-                            android:id="@+id/text_time5"
+                            android:id="@+id/text_time10"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -823,7 +823,7 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour5"
+                            android:id="@+id/text_hour10"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -831,7 +831,7 @@
                             android:text="@string/text_hour"></TextView>
 
                         <TextView
-                            android:id="@+id/text_people5"
+                            android:id="@+id/text_people10"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -839,8 +839,8 @@
                             android:text="@string/text_people">
 
                         </TextView>
-                    </LinearLayout>
 
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
 
@@ -858,7 +858,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:text=""
-                    tools:text="@string/page_number">
+                    tools:text="@string/page_number_two">
 
                 </TextView>
 
@@ -953,6 +953,4 @@
 
 
     </androidx.appcompat.widget.Toolbar>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

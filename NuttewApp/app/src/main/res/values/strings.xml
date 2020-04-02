@@ -72,6 +72,9 @@
     <string name="text_id_show">ID  ex. 603040123-4</string>
     <string name="createroomText">Create room</string>
     <string name="startTime">start : 9.00 AM</string>
+    <string name="text_page">page</string>
+    <string name="page_number">"1/2 "</string>
+    <string name="page_number_two" translatable="false">"2/2 "</string>
 
 
 </resources>

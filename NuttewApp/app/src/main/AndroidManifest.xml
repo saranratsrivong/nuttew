@@ -9,15 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Homepage2Activity"></activity>
         <activity android:name=".logoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity android:name=".ReportActivity" />
         <activity android:name=".editProfileActivity" />
         <activity android:name=".registerActivity" />
@@ -28,9 +27,7 @@
         <activity android:name=".requestFriendActivity" />
         <activity android:name=".roomActivity" />
         <activity android:name=".homeActivity" />
-        <activity android:name=".loginActivity"/>
-
-
+        <activity android:name=".loginActivity" />
         <activity android:name=".chatActiveActivity" />
         <activity android:name=".chatActivity" />
         <activity android:name=".MainActivity" />
