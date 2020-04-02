@@ -1138,6 +1138,7 @@
                         </TextView>
                     </LinearLayout>
                 </LinearLayout>
+            </LinearLayout>
 
 
                 <!-- room 8-->
@@ -1586,12 +1587,10 @@
                                 android:text="@string/text_people">
 
                             </TextView>
+
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-
-
-            </LinearLayout>
         </LinearLayout>
 
 
