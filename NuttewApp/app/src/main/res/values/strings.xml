@@ -78,9 +78,9 @@
     <string name="personal_information">Personal Information</string>
     <string name="email">Email</string>
     <string name="phone">Phone</string>
-    <string name="phone_account">083-333-3333</string>
+    <string name="phone_account" translatable="false">083-333-3333</string>
     <string name="id">ID</string>
-    <string name="id_account">60304040000</string>
+    <string name="id_account" translatable="false">60304040000</string>
 
 
 </resources>
