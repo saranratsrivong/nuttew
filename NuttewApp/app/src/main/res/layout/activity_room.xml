@@ -79,16 +79,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/text_pin" />
 
-            <TextView
-                android:id="@+id/text_host"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:text="@string/text_host"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/text_title_room" />
-
 
             <ImageView
                 android:id="@+id/image_host"
@@ -329,7 +319,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
-                        android:text="Saranrat"
+                        android:text="wait to join"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/text_user2"
                         app:layout_constraintHorizontal_bias="0.5"
@@ -352,7 +342,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
-                        android:text="Pornsukorn"
+                        android:text="wait to join"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toStartOf="@+id/text_user3"
                         app:layout_constraintHorizontal_bias="0.5"
@@ -375,7 +365,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
-                        android:text="Thaniya"
+                        android:text="wait to join"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="0.5"
@@ -391,9 +381,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:textColor="@color/whiteCearteRoom"
                 android:background="#79CB3F"
+                android:onClick="joinroom"
                 android:text="@string/button_join"
+                android:textColor="@color/whiteCearteRoom"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -424,7 +415,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_home">
+                android:background="@mipmap/ic_home"
+                android:onClick="HomePage">
 
             </ImageView>
 
@@ -434,7 +426,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_friend">
+                android:background="@mipmap/ic_friend"
+                android:onClick="friendPage">
 
             </ImageView>
 
@@ -444,7 +437,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_chat">
+                android:background="@mipmap/ic_chat"
+                android:onClick="chatPage">
 
             </ImageView>
 
@@ -454,7 +448,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_setting">
+                android:background="@mipmap/ic_setting"
+                android:onClick="settingsPage">
 
             </ImageView>
         </LinearLayout>

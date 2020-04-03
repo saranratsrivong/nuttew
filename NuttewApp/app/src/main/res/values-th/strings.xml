@@ -28,7 +28,7 @@
     <string name="text_time">9.00 น.</string>
     <string name="text_library">ห้องสมุดกลาง</string>
     <string name="text_hour">เวลา : 3 ชม.</string>
-    <string name="text_people">ผู้เข้าร่วม : 0/4</string>
+    <string name="text_people">ผู้เข้าร่วม : </string>
     <string name="text_title">อ่านหนังสือเตรียมสอบ\n</string>
     <string name="text_pin">รหัส ห้อง: 123456</string>
     <string name="text_host">Saranrat</string>
@@ -38,7 +38,7 @@
     <string name="text_time_to_time">9.00-12.00 น.</string>
     <string name="text_member">รายชื่อผู้เข้าร่วม</string>
     <string name="button_join">เข้าร่วม</string>
-    <string name="text_date">วันที่ : 20/02/2563</string>
+    <string name="text_date">วันที่ : </string>
     <string name="account_info">ข้อมูลส่วนตัว</string>
     <string name="account_settings">บัญชี</string>
     <string name="add_friend">เพิ่มเพื่อน</string>
@@ -63,7 +63,7 @@
     <string name="year">ปี</string>
     <string name="what_wrong">เกิดอะไรขึ้น?</string>
     <string name="username_radio">ชื่อผู้ใช้</string>
-    <string name="username_profile">\@ชื่อผู้ใช้</string>
+    <string name="username_profile">\@</string>
     <string name="username">ชื่อผู้ใช้ : เอ</string>
     <string name="toolbar_settings">ตั้งค่า</string>
     <string name="toolbar_report">รายงาน</string>
@@ -72,5 +72,5 @@
     <string name="text_place">สถานที่</string>
     <string name="text_id_show">ตัวอย่าง รหัสนศ. 603040123-4</string>
     <string name="createroomText">สร้างห้อง</string>
-    <string name="startTime">เริ่ม 9.00 น.</string>
+    <string name="startTime">เริ่ม </string>
 </resources>

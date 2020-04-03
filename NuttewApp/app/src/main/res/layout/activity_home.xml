@@ -105,6 +105,7 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_header_ofhomepage"
                 android:gravity="center"
+                android:onClick="Layout1viewroom"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -223,14 +224,6 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour1"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
                             android:id="@+id/text_people1"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
@@ -254,6 +247,7 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_header_ofhomepage"
                 android:gravity="center"
+                android:onClick="Layout2viewroom"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -373,14 +367,6 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour2"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
                             android:id="@+id/text_people2"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
@@ -404,6 +390,7 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_header_ofhomepage"
                 android:gravity="center"
+                android:onClick="Layout3viewroom"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -523,14 +510,6 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour3"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
                             android:id="@+id/text_people3"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
@@ -554,6 +533,7 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_header_ofhomepage"
                 android:gravity="center"
+                android:onClick="Layout4viewroom"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -673,14 +653,6 @@
                         android:orientation="horizontal">
 
                         <TextView
-                            android:id="@+id/text_hour4"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
-
-                        <TextView
                             android:id="@+id/text_people4"
                             style="@style/HomeText"
                             android:layout_width="match_parent"
@@ -704,6 +676,7 @@
                 android:layout_marginEnd="30dp"
                 android:background="@drawable/bg_header_ofhomepage"
                 android:gravity="center"
+                android:onClick="Layout5viewroom"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -821,14 +794,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/text_hour5"
-                            style="@style/HomeText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="@string/text_hour"></TextView>
 
                         <TextView
                             android:id="@+id/text_people5"

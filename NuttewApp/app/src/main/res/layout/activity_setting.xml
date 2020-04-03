@@ -196,7 +196,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_home">
+                android:background="@mipmap/ic_home"
+                android:onClick="HomePage">
 
             </ImageView>
 
@@ -206,7 +207,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_friend">
+                android:background="@mipmap/ic_friend"
+                android:onClick="friendPage">
 
             </ImageView>
 
@@ -216,7 +218,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_chat">
+                android:background="@mipmap/ic_chat"
+                android:onClick="chatPage">
 
             </ImageView>
 
@@ -226,7 +229,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_setting">
+                android:background="@mipmap/ic_setting"
+                android:onClick="settingsPage">
 
             </ImageView>
         </LinearLayout>

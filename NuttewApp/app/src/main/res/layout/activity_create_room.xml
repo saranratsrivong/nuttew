@@ -60,71 +60,79 @@
         app:layout_constraintTop_toBottomOf="@+id/myToolBar">
 
         <EditText
+            android:id="@+id/edit_nameroom"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:hint="room name"
             android:paddingLeft="25dp"
-            android:text="@string/name_createroom"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textColor="#0F0E0E" />
 
         <EditText
+            android:id="@+id/edit_date"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:hint="@string/date_createroom"
             android:paddingLeft="25dp"
-            android:text="@string/date_createroom"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textColor="#0F0E0E" />
 
         <EditText
+            android:id="@+id/edit_time"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:hint="@string/time_createroom"
             android:paddingLeft="25dp"
-            android:text="@string/time_createroom"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textColor="#0F0E0E" />
 
         <EditText
+            android:id="@+id/edit_place"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:hint="@string/place_createroom"
             android:paddingLeft="25dp"
-            android:text="@string/place_createroom"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textColor="#0F0E0E" />
 
         <EditText
+            android:id="@+id/edit_details"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/circle_createroom"
+            android:hint="@string/other_room"
             android:paddingLeft="25dp"
-            android:text="@string/other_room"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textColor="#0F0E0E" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
+        <Button
+            android:id="@+id/button_create"
+            android:layout_width="212dp"
+            android:layout_height="33dp"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@drawable/create_button"
-            android:paddingLeft="150dp"
+
             android:text="Create"
-            android:textColor="@color/whiteCearteRoom" />
+            android:textAlignment="center"
+            android:textColor="#0F0E0E" />
+
     </LinearLayout>
     <androidx.appcompat.widget.Toolbar
         android:layout_width="match_parent"

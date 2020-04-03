@@ -48,7 +48,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_centerInParent="true"
                 android:background="@drawable/ic_back"
-                android:backgroundTint="@color/colorToolBar" />
+                android:backgroundTint="@color/colorToolBar"
+                android:onClick="gotosetting" />
 
             <Button
                 android:layout_width="50dp"
@@ -168,7 +169,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/major_en" />
+                    android:text="-" />
             </LinearLayout>
 
             <View
@@ -208,7 +209,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/female" />
+                    android:text="-" />
             </LinearLayout>
 
             <View
@@ -248,7 +249,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="@string/year_3" />
+                    android:text="-" />
             </LinearLayout>
 
             <View
@@ -271,6 +272,7 @@
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
         android:background="@drawable/bg_back_to_home"
+        android:onClick="gotosetting"
         app:layout_constraintBottom_toBottomOf="@+id/scrollView3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -337,7 +339,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_home">
+                android:background="@mipmap/ic_home"
+                android:onClick="HomePage">
 
             </ImageView>
 
@@ -348,7 +351,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_friend">
+                android:background="@mipmap/ic_friend"
+                android:onClick="friendPage">
 
             </ImageView>
 
@@ -358,7 +362,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_chat">
+                android:background="@mipmap/ic_chat"
+                android:onClick="chatPage">
 
             </ImageView>
 
@@ -368,7 +373,8 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@mipmap/ic_setting">
+                android:background="@mipmap/ic_setting"
+                android:onClick="settingsPage">
 
             </ImageView>
         </LinearLayout>
