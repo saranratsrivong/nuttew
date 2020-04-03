@@ -72,6 +72,7 @@
     <string name="text_id_show">ID  ex. 603040123-4</string>
 <<<<<<< HEAD
     <string name="createroomText">Create room</string>
+<<<<<<< HEAD
     <string name="startTime">start : </string>
 =======
     <string name="home_button">Home</string>
@@ -86,6 +87,12 @@
     <string name="id">ID</string>
     <string name="id_account" translatable="false">60304040000</string>
 >>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
+=======
+    <string name="startTime">start : 9.00 AM</string>
+    <string name="text_page">page</string>
+    <string name="page_number">"1/2 "</string>
+    <string name="page_number_two" translatable="false">"2/2 "</string>
+>>>>>>> 727db7720ae3c30bc9a27327237fcf7fba02bf07
 
 
 </resources>

@@ -73,6 +73,7 @@
 <<<<<<< HEAD
     <string name="text_id_show">ตัวอย่าง รหัสนศ. 603040123-4</string>
     <string name="createroomText">สร้างห้อง</string>
+<<<<<<< HEAD
     <string name="startTime">เริ่ม </string>
 =======
     <string name="text_id_show">ID  ex. 603040123-4</string>
@@ -85,4 +86,9 @@
     <string name="personal_information">ข้อมูลส่วนตัว</string>
     <string name="toolbar_account">บัญชี</string>
 >>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
+=======
+    <string name="startTime">เริ่ม 9.00 น.</string>
+    <string name="text_page">หน้า</string>
+    <string name="page_number">"1/2 "</string>
+>>>>>>> 727db7720ae3c30bc9a27327237fcf7fba02bf07
 </resources>

@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        <activity android:name=".Homepage2Activity"></activity>
+>>>>>>> 727db7720ae3c30bc9a27327237fcf7fba02bf07
         <activity android:name=".logoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,9 +24,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity android:name=".ReportActivity" />
         <activity android:name=".editProfileActivity" />
         <activity android:name=".registerActivity" />
@@ -33,9 +35,7 @@
         <activity android:name=".requestFriendActivity" />
         <activity android:name=".roomActivity" />
         <activity android:name=".homeActivity" />
-        <activity android:name=".loginActivity"/>
-
-
+        <activity android:name=".loginActivity" />
         <activity android:name=".chatActiveActivity" />
         <activity android:name=".chatActivity" />
         <activity android:name=".MainActivity" />

@@ -59,10 +59,11 @@
     <style name="HomeTitleText">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">#5B5B5B</item>
+        <item name="android:textColor">#000000</item>
     </style>
 
     <style name="HomeText">
+<<<<<<< HEAD
         <item name="android:textSize">18sp</item>
         <item name="android:textColor">#5B5B5B</item>
 =======
@@ -70,5 +71,9 @@
         <item name="android:textSize">16sp</item>
         <item name="android:textStyle">bold</item>
 >>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
+=======
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+>>>>>>> 727db7720ae3c30bc9a27327237fcf7fba02bf07
     </style>
 </resources>
