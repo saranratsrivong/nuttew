@@ -32,7 +32,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/toolbar_addfriend_title"
+                android:id="@+id/toolbar_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -78,7 +78,7 @@
         android:id="@+id/scrollView3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar"
+        app:layout_constraintBottom_toTopOf="@+id/toolBar_bottom"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view2">
@@ -130,6 +130,16 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Saranrat Srivong" />
+
+                <ImageView
+                    android:id="@+id/edit_name_profile"
+                    android:layout_width="36dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/margin50"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/next" />
             </LinearLayout>
 
             <View
@@ -169,7 +179,21 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
+<<<<<<< HEAD
                     android:text="-" />
+=======
+                    android:text="@string/major_en" />
+
+                <ImageView
+                    android:id="@+id/edit_major_profile"
+                    android:layout_width="8dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/margin50"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/next" />
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
             </LinearLayout>
 
             <View
@@ -209,7 +233,21 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
+<<<<<<< HEAD
                     android:text="-" />
+=======
+                    android:text="@string/female" />
+
+                <ImageView
+                    android:id="@+id/edit_gender_profile"
+                    android:layout_width="8dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/margin50"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/next" />
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
             </LinearLayout>
 
             <View
@@ -249,7 +287,22 @@
                     android:layout_marginTop="16dp"
                     android:layout_weight="1"
                     android:gravity="center"
+<<<<<<< HEAD
                     android:text="-" />
+=======
+                    android:text="@string/year_3" />
+
+                <ImageView
+                    android:id="@+id/edit_year_profile"
+                    android:layout_width="9dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="@dimen/margin50"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/next" />
+
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
             </LinearLayout>
 
             <View
@@ -322,17 +375,28 @@
         tools:srcCompat="@drawable/eskimo" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
+        android:id="@+id/toolBar_bottom"
+        android:layout_width="0dp"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/toolBarBottom"
-        app:layout_constraintBottom_toBottomOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="honeycomb" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:weightSum="4">
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_home"
+        android:onClick="HomePage"
+        app:layout_constraintEnd_toStartOf="@+id/friend_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
 
+<<<<<<< HEAD
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -341,9 +405,23 @@
                 android:layout_weight="1"
                 android:background="@mipmap/ic_home"
                 android:onClick="HomePage">
+=======
+    </ImageView>
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
-            </ImageView>
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_setting"
+        android:onClick="settingsPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chat_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
 
+<<<<<<< HEAD
             <ImageView
                 android:id="@+id/friendIcon"
                 android:layout_width="wrap_content"
@@ -353,9 +431,22 @@
                 android:layout_weight="1"
                 android:background="@mipmap/ic_friend"
                 android:onClick="friendPage">
+=======
+    </ImageView>
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
-            </ImageView>
+    <ImageView
+        android:id="@+id/friend_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_friend"
+        app:layout_constraintEnd_toStartOf="@+id/chat_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
 
+<<<<<<< HEAD
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -364,9 +455,23 @@
                 android:layout_weight="1"
                 android:background="@mipmap/ic_chat"
                 android:onClick="chatPage">
+=======
+    </ImageView>
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
-            </ImageView>
+    <ImageView
+        android:id="@+id/chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_chat"
+        android:onClick="chatPage"
+        app:layout_constraintEnd_toStartOf="@+id/setting_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/friend_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
 
+<<<<<<< HEAD
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -375,10 +480,45 @@
                 android:layout_weight="1"
                 android:background="@mipmap/ic_setting"
                 android:onClick="settingsPage">
+=======
+    </ImageView>
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
-            </ImageView>
-        </LinearLayout>
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/home_button"
+        android:textSize="@dimen/textsize_bottombar"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/home_button"
+        app:layout_constraintStart_toStartOf="@+id/home_button" />
 
+    <TextView
+        android:id="@+id/friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/friend_button"
+        app:layout_constraintStart_toStartOf="@+id/friend_button" />
 
-    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/chat_button"
+        app:layout_constraintStart_toStartOf="@+id/chat_button" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/setting_button"
+        app:layout_constraintStart_toStartOf="@+id/setting_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

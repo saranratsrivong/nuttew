@@ -55,7 +55,7 @@
     <string name="name_profile">ชื่อ</string>
     <string name="profile_settings">โปรไฟล์</string>
     <string name="report_settings">รายงานปัญหา</string>
-    <string name="request_friend">คำขอเป็นเป็นเพื่อน</string>
+    <string name="request_friend">คำขอเป็นเพื่อน</string>
     <string name="search">ค้นหา</string>
     <string name="select_image_gallery">เลือกรูปจากแกลอรี่</string>
     <string name="take_screenshot">เพิ่มรูปภาพ</string>
@@ -70,7 +70,19 @@
     <string name="toolbar_profile">โปรไฟล์</string>
     <string name="text_time_num">9.00 นาฬิกา</string>
     <string name="text_place">สถานที่</string>
+<<<<<<< HEAD
     <string name="text_id_show">ตัวอย่าง รหัสนศ. 603040123-4</string>
     <string name="createroomText">สร้างห้อง</string>
     <string name="startTime">เริ่ม </string>
+=======
+    <string name="text_id_show">ID  ex. 603040123-4</string>
+    <string name="setting">ตั้งค่า</string>
+    <string name="chat">แชท</string>
+    <string name="email">อิเมล์</string>
+    <string name="friend">เพื่อน</string>
+    <string name="home_button">หน้าหลัก</string>
+    <string name="phone">เบอร์โทร</string>
+    <string name="personal_information">ข้อมูลส่วนตัว</string>
+    <string name="toolbar_account">บัญชี</string>
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 </resources>

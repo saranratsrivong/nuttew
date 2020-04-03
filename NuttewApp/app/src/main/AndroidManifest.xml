@@ -9,9 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".logoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+=======
+        <activity android:name=".ReportActivity"></activity>
+        <activity android:name=".accountActivity" />
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

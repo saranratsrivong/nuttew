@@ -398,10 +398,11 @@
 
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/bottom_nav"
-        android:layout_width="match_parent"
+        android:id="@+id/toolBar_bottom"
+        android:layout_width="0dp"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/toolBarBottom"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
@@ -456,6 +457,105 @@
 
 
     </androidx.appcompat.widget.Toolbar>
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:targetApi="honeycomb" />
+
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_home"
+        android:onClick="HomePage"
+        app:layout_constraintEnd_toStartOf="@+id/friend_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_setting"
+        android:onClick="settingsPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/chat_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/friend_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_friend"
+        app:layout_constraintEnd_toStartOf="@+id/chat_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/chat_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@mipmap/ic_chat"
+        android:onClick="chatPage"
+        app:layout_constraintEnd_toStartOf="@+id/setting_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/friend_button"
+        app:layout_constraintTop_toTopOf="@+id/toolBar_bottom">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/home_button"
+        android:textSize="@dimen/textsize_bottombar"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/home_button"
+        app:layout_constraintStart_toStartOf="@+id/home_button" />
+
+    <TextView
+        android:id="@+id/friend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/friend_button"
+        app:layout_constraintStart_toStartOf="@+id/friend_button" />
+
+    <TextView
+        android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chat"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/chat_button"
+        app:layout_constraintStart_toStartOf="@+id/chat_button" />
+
+    <TextView
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        app:layout_constraintBottom_toBottomOf="@+id/toolBar_bottom"
+        app:layout_constraintEnd_toEndOf="@+id/setting_button"
+        app:layout_constraintStart_toStartOf="@+id/setting_button" />
+>>>>>>> 0cd7c8937c3bf9f0c86b57b275be244584543870
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
